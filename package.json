@@ -4,7 +4,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "lint": "eslint src",
+    "lint": "eslint \"src/**/*.{js,svelte}\"",
     "start": "sirv public"
   },
   "dependencies": {
