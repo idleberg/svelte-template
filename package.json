@@ -23,5 +23,10 @@
     "rollup-plugin-terser": "^5.1.2",
     "svelte": "^3.0.0",
     "svelte-preprocess": "^3.7.1"
-  }
+  },
+  "husky": {
+    "hooks": {
+        "pre-commit": "npm run lint"
+    }
+}
 }
