@@ -9,7 +9,7 @@ This template differs from the official template in the following aspects:
 - uses `vite` for building and as development server
 - generates components with `plop`
 - incorporates `eslint` and `stylelint`
-- supports aliases for `@components`, `@lib`, `@stores` and `@workers`
+- supports aliases for `$components`, `$lib`, `$stores` and `$workers`
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
