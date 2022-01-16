@@ -6,10 +6,10 @@
 
   "compilerOptions": {
     "paths": {
-      "@components/*": ["./src/components/*"],
-      "@lib/*": ["./src/lib/*"],
-      "@stores/*": ["./src/stores/*"],
-      "@workers/*": ["./src/workers/*"]
+      "$components/*": ["./src/components/*"],
+      "$lib/*": ["./src/lib/*"],
+      "$stores/*": ["./src/stores/*"],
+      "$workers/*": ["./src/workers/*"]
     }
   }
 }
